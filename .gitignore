@@ -1,0 +1,58 @@
+# Joshmar Custom
+/api/appsettings.json
+
+# ASP.NET Core build output
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# .NET Core generated files
+project.lock.json
+project.fragment.lock.json
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# macOS system files
+.DS_Store
+
+# Windows Installer files
+Thumbs.db
+
+# ASP.NET Temporary Files
+/aspnet-client/
+*/bin/
+/obj/
+
+# .NET Core specific files
+.vscode/
+.idea/
+
+# Ignore files created by Visual Studio
+.vs/
+.vs2017/
+.vs2019/
+
+# Ignore npm and bower directories for front-end
+node_modules/
+bower_components/
+
+# JetBrains Rider-specific files
+.idea/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# VS Code files
+.vscode/
