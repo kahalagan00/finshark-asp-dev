@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace api.Controllers
 {
+    // Controller and Routing for the Portfolio Model
     [Route("api/portfolio")]
     [ApiController]
     public class PortfolioController : ControllerBase

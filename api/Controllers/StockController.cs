@@ -9,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace api.Controllers
 {
+    // Controller and Routing for the Stock Model
     [Route("api/stock")]
     [ApiController]
     public class StockController : ControllerBase
