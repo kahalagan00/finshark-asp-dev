@@ -34,7 +34,7 @@ namespace api.Controllers
             // Deferred execution
             var stocks = await _stockRepo.GetAllSync(query);
 
-            var stockDto = stocks.Select(s => s.ToStockDto());
+            var stockDto = stocks.Select(s => s.ToStockDto()).ToList();
             
             return Ok(stockDto);
         }
