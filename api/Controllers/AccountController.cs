@@ -25,6 +25,7 @@ namespace api.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] RegisterDto registerDto)
         {
+            Console.WriteLine("WENT HERE FATTYBOI");
             try
             {
                 if (!ModelState.IsValid)
